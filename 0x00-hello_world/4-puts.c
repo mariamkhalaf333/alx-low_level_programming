@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - Entry point 
+ * main - Entry poin
  *
  * Return: Alawys 0 (Success)
 */
