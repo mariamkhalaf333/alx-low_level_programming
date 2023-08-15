@@ -11,8 +11,9 @@
 int main(void)
 {
 	int x = 0, y, z;
+
 	while (x <= 9)
-	{
+{
 		y = 0;
 		while (y <= 9)
 		{
