@@ -2,9 +2,10 @@
 #include <stdio.h>
 /**
  * *string_nconcat - concatenates two strings
- * @s1: pointer
- * @s2: pointer
+ * @s1: string
+ * @s2: string
  * @n: number
+ *
  * Return: pointer
 */
 char *string_nconcat(char *s1, char *s2, unsigned int n);
