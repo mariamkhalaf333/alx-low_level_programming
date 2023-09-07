@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *string_nconcat - concatenates two strings
- * @s1: string
- * @s2: string
- * @n: number
+ * string_nconcat - concatenates two strings
+ * @s1: pointer
+ * @s2: pointer
+ * @n: Number
  *
  * Return: pointer
 */
