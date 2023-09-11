@@ -2,25 +2,29 @@
 #include "dog.h"
 /**
  * _strlen - a function that gets a length os string
- * @str: the string
+ * @s: the string
  * Return: length
 */
-int _strlen(const char *str)
+int _strlen(char *s)
 {
-	int length = 0;
+	int i;
 
-	while (*str++)
-		length++;
-	return (length);
+	i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
 
 /**
- * _strcopy - a function that returns @dest
+ * _strcpy - a function that returns @dest
  * @src: string to copy
  * @dest: copy string
  * Return: dest
 */
-char *_strcopy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
@@ -60,9 +64,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(dog);
 		return (NULL);
 	}
-	dog->name = _strcopy(dog->name, name);
+	dog->name = _strcpy(dog->name, name);
 	dog->age = age;
-	dog->owner = _strcopy(dog->owner, owner);
+	dog->owner = _strcpy(dog->owner, owner);
 
 	return (dog);
 }
