@@ -1,10 +1,11 @@
-#include"dog.h"
+#include "dog.h"
 #include <stdio.h>
+
 /**
  * print_dog - prints a dog
  * @d: the dog to print
  *
- * Return: void
+ * Return: void.
 */
 void print_dog(struct dog *d)
 {
