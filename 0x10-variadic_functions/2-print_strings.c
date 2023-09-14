@@ -8,7 +8,7 @@
  * @n: number
  * @...: variable name
  *
- * Return: void
+ * Description: if separator is NULL, it is not printed
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
