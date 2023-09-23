@@ -1,14 +1,13 @@
-#include "function_pointer.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - check the code
- * @argc: the args number
- * @argv: argument vector
+ * main - prints its own opcodes
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * Return: Always 0
-*/
+ * Return: Always 0 (Success)
+ */
 int main(int argc, char *argv[])
 {
 	int bytes, i;
